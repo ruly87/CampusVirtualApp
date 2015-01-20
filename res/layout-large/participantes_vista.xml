@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F1F1" 
+    android:id="@+id/viewparticipantes">
+    
+<Button
+                android:id="@+id/inicio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:onClick="tratarInicio"
+                android:drawableLeft="@drawable/home"
+                android:textSize="20sp"
+                android:background="#F1F1F1"
+                android:text="@string/inicio" />
+<TextView
+            android:id="@+id/textoparticipantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="@string/participantes" />
+
+<SearchView
+    android:id="@+id/searchParticipante"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+</SearchView>
+
+<ListView
+    android:id="@+id/listaParticipantes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+</ListView>
+
+</LinearLayout>

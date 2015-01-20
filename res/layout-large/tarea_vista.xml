@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F1F1F1"
+    android:id="@+id/viewtarea">
+
+    <Button
+        android:id="@+id/inicio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#F1F1F1"
+        android:drawableLeft="@drawable/home"
+        android:text="@string/inicio"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TVTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/tarea"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/descripcionTarea"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="20dp"
+        android:layout_weight="0.12"
+        android:background="@drawable/textlines"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:id="@+id/linearhorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        <TextView
+        android:id="@+id/textoruta"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight=".60"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/textlines"
+        android:text="@string/ruta" />
+
+    <Button
+        android:id="@+id/tratarExaminar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".40"        
+        android:layout_marginRight="20dp"
+        android:onClick="tratarExaminar"
+        android:text="@string/examinar" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/boton_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@android:drawable/arrow_up_float"
+        android:text="@string/enviar_tarea" />
+
+    
+
+</LinearLayout>

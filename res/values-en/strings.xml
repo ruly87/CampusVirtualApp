@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campus Virtual</string>
+    <string name="menu_salir">Exit</string>
+    <string name="menu_ayuda">Help</string>
+    <string name="menu_configuracion">Settings</string>
+    <string name="textoDNI">DNI: </string>
+    <string name="ulpgc">Logo</string>
+    <string name="dni_alumno">DNI letterless</string>
+    <string name="password_alumno">Password</string>
+    <string name="textoPassword">Password: </string>
+    <string name="salir">Exit</string>
+    <string name="iniciarSesion">Log in</string>
+    <string name="title_menu_activity">MiULPGC</string>
+    <string name="preferencia1">Spanish</string>
+    <string name="titlePreferencia1">Language</string>
+    <string name="preferencia2">Font</string>
+    <string name="titlePreferencia2">Format</string>
+    <string name="ayuda">help</string>
+    <string name="alerta">Alert</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="boton_documentacion">Documentation</string>
+    <string name="boton_tareas">Works</string>
+    <string name="boton_foroAsignatura">Forum</string>
+    <string name="boton_participantes">Members</string>
+    <string name="inicio">Back to home</string>
+    <string name="error_conexion">No connection</string>
+    <!-- VistaLogin -->
+    <string name="mensaje_alerta">There can not be empty fields!</string>
+    <string name="error_login">Error on login!</string>
+    <string name="mensaje_login">Please wait while log in...</string>
+    <!-- Asignaturas -->
+    <string name="mensaje_asignaturas">Please wait while loading the subjects ...</string>
+    <string name="alerta_salir">Are you sure to exit?</string>
+    <string name="titulo_error">Access to information</string>
+    <string name="alerta_deslogear">Are you sure to logout?</string>
+    <string name="error">Failed to retrieve the subjects!</string>
+    <!-- PaginaAsignatura -->
+    <string name="mensaje_pagina_asignatura">Please wait while the page loading of the course ...</string>
+    <!-- VistaDetallesParticipante -->
+    <string name="imagenPerfil">Profile image</string>
+    <string name="enviarCorreo">Send mail</string>
+    <!-- GaleriaDocumentacion -->
+    <string name="galeria_documentacion">Gallery of documentation</string>
+    <string name="mensaje_gdocumentacion">Please wait while loading the gallery documentation ...</string>
+    <string name="semana">Week</string>
+    <!-- Documentacion -->
+    <string name="documentacion">Documentation</string>
+    <string name="titulo_alerta_documentacion">What would you like to do?</string>
+    <string name="ver">View</string>
+    <string name="descargar">Download</string>
+    <string name="mensaje_documentacion">Please, wait while loading the documentation ...</string>
+    <string name="mensaje_accion_documentacion">Please, wait while the file download ...</string>
+    <!-- GaleriaTarea -->
+    <string name="galeria_tarea">Gallery of homework</string>
+    <string name="mensaje_gtarea">Please wait while loading gallery of homeworks ...</string>
+    <!-- Tarea -->
+    <string name="tarea">Homework to do</string>
+    <string name="ruta">. . . .</string>
+    <string name="examinar">Explore</string>
+    <string name="enviar_tarea">Send</string>
+    <string name="mensaje_tarea">Please, wait while the file is uploaded ...</string>
+    <string name="se_ha_subido">The file is uploaded the</string>
+    <string name="del">at</string>
+    <string name="archivo_existe">A file already exists uploaded to this homework</string>
+    <string name="archivo_no_seleccionado">Select a file first</string>
+    <!-- Participantes -->
+    <string name="participantes">Members</string>
+    <string name="buscar">Search ...</string>
+    <string name="mensaje_participantes">Please wait while loading the participants ...</string>
+    <!-- DetallesParticipantes -->
+    <string name="mensaje_detalles_participantes">Please wait while loading the details ...</string>
+    <string name="correo">Mail :</string>
+    <!-- ForoAsignatura -->
+    <string name="nuevoTema">New Topic</string>
+    <string name="mensaje_foro">Please wait while loading the forum</string>
+    <string name="foro">Forum</string>
+    <string name="publicado">Published on </string>
+    <string name="respuestas_hilo"> replies</string>
+    <!-- ForoAsignaturaDetalle -->
+    <string name="autor">Author</string>
+    <string name="responder">Reply</string>
+    <string name="respuestas">Reply</string>
+    <!-- ForoAsignaturaNuevoTema -->
+    <string name="asuntoMensaje">Message subject</string>
+    <string name="cuerpoMensaje">Message body</string>
+    <string name="enviarTema">Send</string>
+    <string name="mensaje_nuevo_tema">Please wait while the new thread is posted ...</string>
+    <!-- ForoAsignaturaResponderTema -->
+    <string name="responderTema">Reply topic</string>
+    <string name="mensaje_responder_tema">Please wait while the new reply is posted ...</string>
+    <!-- Notificaciones -->
+    <string name="mensajesnuevos">New posts</string>
+    <string name="notificacionesforo">Forum notifications</string>
+    <string name="mensaje_notificaciones">Please wait while loading the notifications ...</string>
+    <!-- MensajeNuevoDetalle -->
+    <string name="asunto">Topic:</string>
+    <string name="mensaje">Message:</string>
+    <string name="remitente">Sender:</string>
+    <!-- AppMediador -->
+    <string name="gestor_correo">Select a Postmaster</string>
+    <string name="gestor">Selects an agent</string>
+    <!--  Ayuda -->
+    <string name="ayuda_titulo_login">Log in</string>
+    <string name="ayuda_texto_login">\t This application provides access academic information from a user (downloading documents, uploading homeworks, contact participants and join the forum) \n 
+         - To access your virtual campus do you need the same username and password that you use on the website (ID and password).
+        </string>
+    <string name="ayuda_titulo_documentacion">View/Download a file</string>
+    <string name="ayuda_texto_documentacion">1 - Select a subject in subjects list.\n
+2 - Select the Documentation button to load the gallery documentation.\n
+3 - Select the week you want.\n
+4 - Select the file you want View or Download.</string>
+    <string name="ayuda_titulo_tarea">Upload a homework</string>
+    <string name="ayuda_texto_tarea">1 - Select a subject in subjects list.\n
+        2 - Select the "Works" button to load the gallery  of homework.\n
+        3 - Select the homework you want.\n
+        4 - Select examine button to select the file.\n
+        5 - Select the submit button to upload the homework.</string>
+    <string name="ayuda_titulo_foro">Post a new topic</string>
+    <string name="ayuda_texto_foro">1 - Select a subject in subjects list \n.
+         2 - Select the "forum" button to load the thread list \n.
+         3 - Select the new topic button. \n
+         4 - Fill in the details and select the send button.</string>
+    <string name="ayuda_titulo_participantes">Send an email to a participant</string>
+    <string name="ayuda_texto_participantes">1 - Select a subject in subjects list. \n
+         2 - Select the Participants button to load the list of participants.\n
+         3 - Select a participant list or find it through the search engine.\n
+         4 - Select the Send Mail button.</string>
+        
+    <string name="menu_ayuda_acerca_de">About</string>
+    <string name="ayuda_titulo_acerca_de">About of Campus Virtual</string>
+    <string name="ayuda_texto_acerca_de">Campus Virtual \n\n
+       Version: 1.0.0\n
+       Made by: Raúl García Gaspar.</string>
+
+</resources>

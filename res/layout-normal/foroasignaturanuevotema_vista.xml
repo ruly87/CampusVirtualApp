@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:background="@drawable/textlines">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F1F1F1"
+    android:id="@+id/viewforonuevotema" >
+        <Button
+                android:id="@+id/inicio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@drawable/home"
+                android:textSize="20sp"
+                android:background="#F1F1F1"
+                android:text="@string/inicio" />
+
+        <TextView
+            android:id="@+id/textotema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/nuevoTema" />
+        <TextView
+            android:id="@+id/TVasuntotema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="@string/asuntoMensaje" />
+
+        <EditText
+            android:id="@+id/ETasuntotema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:ems="10" >
+
+        </EditText>
+        <TextView
+            android:id="@+id/TVmensajetema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="@string/cuerpoMensaje" />
+
+        <EditText
+            android:id="@+id/ETmensajetema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            
+            android:layout_margin="10dp"
+            android:ems="10" >
+
+        </EditText>
+        
+        <Button
+                android:id="@+id/enviarTema"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                
+                android:drawableLeft="@drawable/flechaderecha"
+                android:textSize="20sp"
+                android:background="#F1F1F1"
+                android:text="@string/enviarTema" />
+</LinearLayout>
+</ScrollView>

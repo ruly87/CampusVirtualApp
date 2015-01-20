@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="tiposDeLetra">
+        <item name="sans">Sans</item>
+        <item name="serif">Serif</item>
+        <item name="monospace">Monospace</item>
+        <item name="normal">Normal</item>
+    </string-array>
+    <string-array name="valoresDeTiposDeLetra">
+        <item name="sans">Sans</item>
+        <item name="serif">Serif</item>
+        <item name="monospace">Monospace</item>
+        <item name="normal">Normal</item>
+    </string-array>
+    <string-array name="idiomas">
+        <item name="english">Ingles</item>
+        <item name="spanish">Español</item>
+    </string-array>
+    <string-array name="valoresDeIdiomas">
+        <item name="english">Ingles</item>
+        <item name="spanish">Español</item>
+    </string-array>
+</resources>

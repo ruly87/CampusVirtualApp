@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewpaginaasignatura"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/texto_pagina_asignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1" 
+        android:layout_marginLeft="40dp"
+    	android:layout_marginRight="40dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#F1F1F1"
+        android:layout_marginLeft="40dp"
+    	android:layout_marginRight="40dp">
+
+        <Button
+            android:id="@+id/boton_documentacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F1F1F1"
+            android:drawableLeft="@drawable/documents"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/boton_documentacion"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1" 
+        android:layout_marginLeft="40dp"
+    	android:layout_marginRight="40dp">
+
+        <Button
+            android:id="@+id/boton_foroAsignatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F1F1F1"
+            android:drawableLeft="@drawable/foro"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="@string/boton_foroAsignatura"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1" 
+        android:layout_marginLeft="40dp"
+    	android:layout_marginRight="40dp">
+
+        <Button
+            android:id="@+id/boton_tareas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F1F1F1"
+            android:drawableLeft="@drawable/tarea_completada"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/boton_tareas"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#F1F1F1"
+        android:layout_marginLeft="40dp"
+    	android:layout_marginRight="40dp">
+
+        <Button
+            android:id="@+id/boton_participantes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F1F1F1"
+            android:drawableLeft="@drawable/participantes"
+            android:gravity="center"
+            android:text="@string/boton_participantes"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

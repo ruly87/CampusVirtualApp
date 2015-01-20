@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical"
+    tools:context="rgg.campusvirtualapp.vista.VistaLogin" >
+
+    <ImageView
+        android:id="@+id/ulpgc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/ulpgc"
+        android:src="@drawable/ulpgc" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textoDNI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+   
+				android:layout_marginTop="20dp"
+				android:layout_marginLeft="10dp"
+                android:text="@string/textoDNI"
+                android:textColor="#0000FF"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/dni_alumno"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textlines"
+				android:inputType="number"
+                android:layout_margin="20dp"
+                android:ems="8"
+                android:hint="@string/dni_alumno"
+                android:textColor="#0000FF"
+                android:textColorHint="#0000FF" >
+            </EditText>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textoPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/textoPassword"
+                android:textColor="#0000FF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/password_alumno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textlines"
+                android:layout_margin="20dp"
+                android:ems="8"
+                android:hint="@string/password_alumno"
+                android:inputType="textPassword"
+                android:textColorHint="#0000FF" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ssalir"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#F1F1F1"
+			android:drawablePadding="10dp"
+            android:text="@string/salir"
+            android:textColor="#0000FF"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/iniciarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+			android:drawableLeft="@drawable/iniciarsesion"
+            android:background="#F1F1F1"
+            android:text="@string/iniciarSesion"
+            android:textColor="#0000FF"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

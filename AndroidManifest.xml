@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rgg.campusvirtualapp.vista"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+	<supports-screens android:resizeable="true"
+                  android:smallScreens="false"
+                  android:normalScreens="true"
+                  android:largeScreens="true"
+                  android:xlargeScreens="false"
+                  android:anyDensity="false"/>
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:name="rgg.campusvirtualapp.AppMediador"
+        android:allowBackup="true"
+        android:icon="@drawable/logoulpgcl"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light">
+        
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaLogin"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"    
+            android:windowSoftInputMode="stateVisible|adjustPan"      >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaAsignaturas"
+            android:label="@string/asignaturas"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaAyuda"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaDetallesParticipantes"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaDocumentacion"
+            android:label="@string/app_name"
+			android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaForoAsignatura"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaForoAsignaturaDetalle"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaForoAsignaturaNuevoTema"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaForoAsignaturaResponderTema"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaGaleriaDocumentacion"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaGaleriaTarea"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaNotificaciones"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaMensajeNuevo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaNotificacionesForo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaPaginaAsignatura"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaParticipantes"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaTarea"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.Preferencias"
+            android:label="@string/title_menu_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaMensajeNuevoDetalle"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="rgg.campusvirtualapp.vista.VistaNotificacionesForoDetalle"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="rgg.campusvirtualapp.presentador.bajo_nivel.ServicioNotificaciones"
+            	android:exported="false"> 
+        </service>
+    </application>
+
+</manifest>

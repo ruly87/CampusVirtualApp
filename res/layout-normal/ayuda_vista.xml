@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ayuda" >
+
+        <LinearLayout            
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:background="#F1F1F1"
+    android:gravity="center"
+    android:orientation="vertical"  >
+        <Button
+        android:id="@+id/ayudaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ayuda_titulo_login" />
+
+    <Button
+        android:id="@+id/ayudaDocumentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/ayuda_titulo_documentacion" />
+
+    <Button
+        android:id="@+id/ayudaForo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/ayuda_titulo_foro" />
+
+    <Button
+        android:id="@+id/ayudaTareas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/ayuda_titulo_tarea" />
+
+    <Button
+        android:id="@+id/ayudaParticipantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/ayuda_titulo_participantes" />
+
+    
+</LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/ayuda"
+        android:contentDescription="@string/ayuda"
+        android:background="#F1F1F1"
+        android:src="@drawable/info" />
+
+    <TextView
+        android:id="@+id/ayuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/menu_ayuda"
+        android:textColor="#0000FF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

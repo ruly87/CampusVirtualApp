@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F1F1F1"
+    android:id="@+id/viewdetallesparticipantes">
+
+    <Button
+        android:id="@+id/inicio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#F1F1F1"
+        android:drawableLeft="@drawable/home"
+        android:text="@string/inicio"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imagenPerfil"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imagenPerfil"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:id="@+id/textoDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="20dp"
+        android:layout_weight="0.12"
+        android:background="@drawable/textlines"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/enviarCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/email"
+        android:background="#F1F1F1"
+        android:text="@string/enviarCorreo" />
+
+    
+
+</LinearLayout>
